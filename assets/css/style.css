@@ -18,6 +18,7 @@
   float: left;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: flex-start;
 }
 
@@ -53,6 +54,9 @@
 }
 
 
+/* stile download app/user */
+
+
 /* stile sezione canzoni */
 .songsection{
   width: calc((100% / 6) * 5);
@@ -60,7 +64,49 @@
   background-image: linear-gradient(to right bottom, rgb(67, 66, 87), rgb(0, 0, 0)),
   linear-gradient(transparent, rgb(0, 0, 0) 70%);
   float: left;
+  overflow-y: scroll;
 }
+
+
+/* stile titoli row */
+
+
+/* Stile sezione canzoni */
+
+.songsection h2{
+  font-size: 30px;
+  color: #fff;
+  float: left;
+  letter-spacing: 5px;
+  margin: 30px 0 30px 20px;
+}
+
+.songsection a{
+  float: right;
+  font-size: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.songsection a:hover{
+  color: #A1A0A1;
+}
+
+.songsection .row-2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.songsection .row-2 .song{
+  border: 2px solid #fff;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
 
 /* clearfix */
 .row{
