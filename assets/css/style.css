@@ -5,6 +5,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
 /* stile contentitore parte centale */
 .row{
   width: 100%;
@@ -13,13 +14,13 @@
 /* stile sezione menu laterale */
 .lateralmenu{
   width: calc((100% / 6) * 1);
-  height: calc(100vh - 100px);
+  height: calc(100vh - 90px);
   background-color: #000;
   float: left;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 
@@ -57,21 +58,27 @@
 /* stile download app/user */
 
 
+.download a{
+  margin: 10px 0 10px 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.download a i{
+  margin: 10px 0 10px;
+  padding-right: 10px;
+}
+
 /* stile sezione canzoni */
 .songsection{
   width: calc((100% / 6) * 5);
-  height: calc(100vh - 100px);
+  height: calc(100vh - 90px);
   background-image: linear-gradient(to right bottom, rgb(67, 66, 87), rgb(0, 0, 0)),
   linear-gradient(transparent, rgb(0, 0, 0) 70%);
   float: left;
   overflow-y: scroll;
 }
 
-
-/* stile titoli row */
-
-
-/* Stile sezione canzoni */
 
 .songsection h2{
   font-size: 30px;
@@ -84,7 +91,7 @@
 .songsection a{
   float: right;
   font-size: 20px;
-  margin-right: 20px;
+  margin: 30px 20px 30px 0;
   text-decoration: none;
   color: #fff;
 }
@@ -101,12 +108,15 @@
 }
 
 .songsection .row-2 .song{
-  border: 2px solid #fff;
-  height: 200px;
-  width: 200px;
   margin: 20px;
+  border: 1px solid #fff;
 }
 
+
+.song img{
+  width: 200px;
+  height: 200px;
+}
 
 /* clearfix */
 .row{
@@ -119,6 +129,6 @@
 /* stile sezione player */
 .player{
   width: 100%;
-  height: 100px;
+  height: 90px;
   background-color: #282828;
 }
