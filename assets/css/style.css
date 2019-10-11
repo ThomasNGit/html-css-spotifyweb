@@ -64,7 +64,7 @@
   text-decoration: none;
 }
 
-.download a i{
+.d-links a i{
   margin: 10px 0 10px;
   padding-right: 10px;
 }
@@ -169,7 +169,6 @@
   height: 90px;
   background-color: #282828;
   display: flex;
-  justify-content: flex-start;
 }
 
 /* sezione della canzone riprodotta */
@@ -205,10 +204,10 @@
 
 .player-controls{
   width: 40%;
-  margin-left: 5%;
+  margin-left: 10%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: space-between;
 }
 
 /* parte superiore playerbar */
@@ -232,11 +231,16 @@
   padding: 10px;
 }
 
+.controls a:hover i{
+  color: #A1A0A1;
+}
+
+/* parte inferiore navbar */
 .bar-visual{
   height: 50%;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .playerbar{
@@ -254,4 +258,41 @@
   justify-content: flex-end;
   margin-bottom: 15px;
   color: #fff;
+}
+
+/* sezione controllo volume */
+.volumediv{
+  width: 20%;
+  display: flex;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+
+.volume-control{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.controls-v {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.controls-v a{
+  color: #fff;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.volumebar{
+  width: 70%;
+  height: 3px;
+  border: 2px solid #fff;
+  border-radius: 3px;
 }
