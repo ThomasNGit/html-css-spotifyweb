@@ -80,6 +80,18 @@
 }
 
 
+.titolo{
+  display: flex;
+  flex-direction: column;
+}
+
+.titolo p{
+  align-self: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .songsection h2{
   font-size: 30px;
   color: #fff;
@@ -159,6 +171,7 @@
   justify-content: flex-start;
 }
 
+/* sezione della canzone riprodotta */
 .songtitle{
   margin: 20px;
 }
@@ -185,4 +198,28 @@
 }
 .likeicon:hover{
   color: #fff;
+}
+
+/* sezione playerbar */
+
+.player-controls{
+  width: 40%;
+  margin-left: 15%;
+  display: flex;
+    justify-content: space-between;
+}
+
+.playerbar{
+  height: 2px;
+  border: 2px solid white;
+  border-radius: 3px;
+  width: 90%;
+  align-self: flex-end;
+  margin-bottom: 5px;
+}
+
+.inizio, .fine{
+  align-self: flex-end;
+  color: #fff;
+  font-weight: bold;
 }
