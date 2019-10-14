@@ -97,6 +97,7 @@
   linear-gradient(transparent, rgb(0, 0, 0) 70%);
   float: left;
   overflow-y: scroll;
+  padding: 2%;
 }
 
 /* stile navbar superiore */
@@ -145,13 +146,13 @@
   color: #fff;
   float: left;
   letter-spacing: 5px;
-  margin: 30px 0 30px 20px;
+  margin: 150px 0 30px 20px;
 }
 
 .songsection a{
   float: right;
   font-size: 20px;
-  margin: 30px 20px 30px 0;
+  margin: 150px 20px 30px 0;
   text-decoration: none;
   color: #fff;
 }
