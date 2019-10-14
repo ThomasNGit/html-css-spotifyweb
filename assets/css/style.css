@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   /* overflow-y: hidden; */
+    list-style-type: none;
 }
 
 
@@ -40,7 +41,6 @@
 }
 
 .lateralmenu .vertnav ul li{
-  list-style-type: none;
   margin-top: 10px;
 }
 
@@ -55,6 +55,25 @@
   font-size: 20px;
 }
 
+/* stile sezione scroll sx */
+.brani{
+  width: 80%;
+  height: 400px;
+  margin: 30px auto 0;
+  overflow-y: scroll;
+}
+
+.brani li{
+  color: #fff;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.brani li span{
+  color: red;
+  text-decoration: underline;
+  font-weight: bolder;
+}
 
 /* stile download app/user */
 
@@ -79,6 +98,7 @@
   float: left;
   overflow-y: scroll;
 }
+
 
 
 .titolo{
@@ -143,9 +163,6 @@
   display: none;
 }
 
-.songsection .row-2 .song:hover{
-  background: rgba(255, 0, 0, 0.5);
-}
 
 .songsection .row-2 .song:hover i{
   display: inline-block;
