@@ -65,7 +65,7 @@
 
 .brani li{
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   margin: 10px 0;
 }
 
@@ -89,7 +89,7 @@
   padding-right: 10px;
 }
 
-/* stile sezione canzoni */
+/* stile container canzoni */
 .songsection{
   width: calc((100% / 6) * 5);
   height: calc(100vh - 90px);
@@ -99,8 +99,33 @@
   overflow-y: scroll;
 }
 
+/* stile navbar superiore */
 
+.topnav{
+  width: 80%;
+  margin: 20px auto;
+}
 
+.topnav ul{
+  text-align: center;
+}
+
+.topnav ul li{
+  display: inline-block;
+  margin: 0 40px;
+}
+
+.topnav ul li a{
+  color: #A1A0A1;
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+.topnav ul li a:hover{
+  border-bottom: 1px solid green;
+}
+
+/* stile sezione canzoni */
 .titolo{
   display: flex;
   flex-direction: column;
@@ -171,6 +196,7 @@
 .song img{
   width: 200px;
   height: 200px;
+  box-shadow: 2px 2px grey;
 }
 
 /* clearfix */
