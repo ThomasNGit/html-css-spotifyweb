@@ -76,7 +76,9 @@
 }
 
 /* stile download app/user */
+.download{
 
+}
 
 .download a{
   margin: 10px 0 10px 30px;
@@ -104,7 +106,7 @@
 
 .topnav{
   width: 80%;
-  margin: 20px auto 20px;
+  margin: 20px auto;
 }
 
 .topnav ul{
